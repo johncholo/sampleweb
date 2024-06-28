@@ -28,14 +28,14 @@ main{
 }
 
 .left-col p{
-    font-size: 40px;
-    color: black;
+    font-size: 25px;
+    color: rgb(207, 204, 233);
     line-height: 35px;
     float: left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-left: -23%;
-    margin-top: 25%;
+    margin-top: 35%;
 
 }
 
