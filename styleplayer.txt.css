@@ -10,6 +10,7 @@ main{
     background-image: linear-gradient(rgba(9,0,77,0.65), rgba(9,0,77,0.65)), url(images/bgf.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 
@@ -24,6 +25,7 @@ main{
     float: left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    position: absolute;
 }
 
 .left-col p{
@@ -33,8 +35,8 @@ main{
     float: left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-left: -23%;
-    margin-top: 35%;
+    margin-top: 25%;
+    position: absolute;
 
 }
 
@@ -70,9 +72,11 @@ body {
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
-    padding: 35px;
+    padding: 10px;
     overflow: hidden;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .music-name,
