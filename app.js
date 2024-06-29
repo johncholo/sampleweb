@@ -26,17 +26,17 @@ playBtn.addEventListener('click', () =>{
 
 const setMusic = (i) => {
     seekBar,value = 0; // set range slide value to 0;
-    let song = songs [i],
+    let song = songs [i];
     currentMusic = i;
     music.src = song.path;
 
-    songName.innerHTML = song.name,
-    artistName.innerHTML = song.artist,
-    disk.style.backgroundImage = `url('${song.cover}')`,
+    songName.innerHTML = song.name;
+    artistName.innerHTML = song.artist;
+    disk.style.backgroundImage = `url('${song.cover}')`;
 
     currentTime,innerHTML = '00:00';
     setTimeout(() => {
-        seekBar.max = music.duration,
+        seekBar.max = music.duration;
         musicDuration.innerHTML = formatTime(music.duration);
     }, 300);
     }
@@ -64,7 +64,7 @@ setInterval(() => {
     if(Math.floor(music.currentTime) == Math.floor(seekBar.max)){
         forwardBtn.click();
     }
-}, 1000)
+}, 500)
 
 seekBar.addEventListener('change',() => {
     music.currentTime = seekBar. value;
