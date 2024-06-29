@@ -70,7 +70,7 @@ body {
     width: 350px;
     height: 550px;
     border-radius: 35px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.0.8);
     box-shadow: 0 40px 100px rgba(255, 255, 255, 0.2);
     padding: 30px;
     overflow: hidden;
